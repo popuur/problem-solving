@@ -9,21 +9,22 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-class Point {
-	long x;
-	long y;
-	
-	Point (long x, long y){
-		this.x = x;
-		this.y = y;
-	}
-}
+
 
 public class Main_1708 {
 	/*
 	 * 볼록 껍질
 	 * https://www.acmicpc.net/problem/1708
 	 */
+	static class Point {
+		long x;
+		long y;
+		
+		Point (long x, long y){
+			this.x = x;
+			this.y = y;
+		}
+	}
 	
 	public static void main(String[] args) throws IOException {
 		
